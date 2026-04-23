@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Yuanzhe's first Webpage</title>
+     <title>Yuanzhe's first Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* font style */
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 30px; /* margin for entire web page, on both top, bottom, left, right sections */
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-top: 30px;
+            margin-bottom: 12px;
+        }
+
+        p, a, table {
+            font-size: 20px;
+        }
+
+        table {
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px 12px;
+        }
+
+        img {
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
-    <h2>About Me</h2>
-    <p>My name is Yuanzhe. I am learning HTML in Visual Studio Code.</p>
-
-    <h2>My Interests</h2>
-    <p>I like programming, technology, and web development.</p>
+    <h1>Welcome to My Webpage</h1> <!-- Level 1 Heading -->
+    <div style="color: red;">
+        <h2>About Me</h2> <!-- Level 2 Heading -->
+        <p>My name is Yuanzhe. I am learning HTML in Visual Studio Code.</p>
+    </div>
+    <div style="color: green;">
+        <h2>My Interests</h2>
+        <p>I like programming, technology, and web development.</p> <!-- paragraph -->
+    </div>
     <h2>My Weekly Schedule</h2>
     <h2>Hyperlinks in HTML</h2>
+
     <a href="https://www.monash.edu/">Click here to view the Monash website</a>
+
     <table border="1">
-        <tr>
-            <th>Day</th>
-            <th>Activity</th>
+        <tr> <!-- represents a row -->
+            <th>Day</th> <!-- represents the first heading row in a table -->
+            <th>Activity</th> 
         </tr>
         <tr>
-            <td>Monday</td>
+            <td>Monday</td> <!-- represent columns in a single row -->
             <td>Study HTML</td>
         </tr>
         <tr>
@@ -27,6 +68,7 @@
             <td>Practice CSS</td>
         </tr>
     </table>
+
     <h2>My Favourite Image</h2>
     <img src="image.png" alt="Sample image" width="500">
 </body>
